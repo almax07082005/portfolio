@@ -1,0 +1,83 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section {
+    height: 100vh;
+}
+
+main {
+    margin-left: 260px;
+}
+
+#contact p {
+    margin-bottom: 30px;
+}
+
+.vertical-nav {
+    width: 240px;
+    padding: 0 0;
+    height: 100vh;
+    position: fixed;
+    background-color: #d6d6d6;
+    overflow: auto;
+}
+
+.vertical-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.vertical-nav ul li h2 {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+}
+
+.vertical-nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+}
+
+.vertical-nav ul li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-telegram {
+    background: #0088cc;
+    color: white;
+}
+
+.fa-github {
+    background: #333;
+    color: white;
+}
+
+.fa-vk {
+    background: #4c75a3;
+    color: white;
+}
+
+.fa-gitlab {
+    background: #fc6d26;
+    color: white;
+}

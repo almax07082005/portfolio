@@ -124,3 +124,45 @@ main {
     background: #ff4d4d;
     color: white;
 }
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-card {
+    width: 45%; /* Adjust as needed */
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.project-card img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.project-card h3 {
+    text-align: center;
+    color: #333;
+}
+
+.project-card p {
+    line-height: 1.6;
+    color: #555;
+}
+
+.project-card a {
+    display: inline-block;
+    color: #0066cc;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="comic.css">
+    <title>Get comic</title>
+</head>
+<body>
+<h1>Get comic</h1>
+<!-- Building on the previous homework submission, add a script that fetches an XKCD comic identifier from https://fwd.innopolis.university/api/hw2 by sending your email as a query parameter (called email). It is recommended to use URLSearchParams. Example: https://fwd.innopolis.university/api/hw2?email=i.ivanov@innopolis.university
+
+After getting the ID, use it to request https://fwd.innopolis.university/api/comic?id=<your-id> using the JavaScript Fetch API. You should then display the image, its title, and the date it was published (using date.toLocaleDateString()). Don't forget about the image's alternative text as well. -->
+
+<form>
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="i.ivanov@innopolis.university">
+    <button type="submit" id="comic-button">Get Comic</button>
+</form>
+
+<img id="comic-image" src="" alt="Comic">
+<h2 id="comic-title"></h2>
+<p id="comic-date"></p>
+<script src="comic.js"></script>
+</body>
+</html>

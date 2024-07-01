@@ -1,0 +1,1 @@
+document.querySelectorAll('.vertical-nav a[href^="#"]').forEach((function(e){e.addEventListener("click",(function(e){e.preventDefault();var t=document.querySelector(this.getAttribute("href"));t&&t.scrollIntoView({behavior:"smooth"})}))}));

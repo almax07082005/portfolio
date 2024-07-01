@@ -5,8 +5,8 @@ import 'regenerator-runtime/runtime.js';
 
 export default {
     input: [
-        'src/index.ts',
-        'src/comic.ts'
+        'index.ts',
+        'comic.ts'
     ],
     output: {
         dir: 'dist',
